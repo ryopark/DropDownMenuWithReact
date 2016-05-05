@@ -15,6 +15,11 @@ Rails.application.routes.draw do
   #   resources :products
   root 'comments#index'
 
+  namespace :api, format: 'json' do
+  namespace :v1  do
+    resources :comments
+    end
+  end
 
   # Example resource route with options:
   #   resources :products do
