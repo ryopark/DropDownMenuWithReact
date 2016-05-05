@@ -1,5 +1,5 @@
 ## This is for a practice to use react in ruby on rails
 
-- follow react tutorial in ruby on rails
+- follow react tutorial in ruby on rails - http://qiita.com/joe-re/items/96f12dda4a62470d1d7c
 - try https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers
 - make a drop down menu
