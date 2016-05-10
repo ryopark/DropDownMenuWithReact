@@ -15,6 +15,8 @@ Rails.application.routes.draw do
   #   resources :products
   root 'comments#index'
   resources :tweets, only: :index
+  resources :drop_downs, only: :index
+
 
   namespace :api, format: 'json' do
   namespace :v1  do
